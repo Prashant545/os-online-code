@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
     int b[30],p[30],w[30],tat[30],p[30],i,j,n,total=0,pos,temp,avg_w,avg_tat;
