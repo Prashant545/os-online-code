@@ -12,7 +12,7 @@ int main()
         scanf("%d",&b[i]);
         printf("Priority:");
         scanf("%d",&p[i]);
-        p[i]=i+1;           //contains process number
+        p[i]=i+1;  //contains process number
     }
     for(i=0;i<n;i++)
     {
@@ -34,7 +34,7 @@ int main()
         p[i]=p[pos];
         p[pos]=temp;
     }
-     w[0]=0;    //waiting time for first process is zero
+     w[0]=0; //waiting time for first process is zero
  
     //calculate waiting time
     for(i=1;i<n;i++)
