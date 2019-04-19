@@ -56,7 +56,7 @@ int main()
         printf("\nP[%d]\t\t  %d\t\t    %d\t\t\t%d",p[i],b[i],w[i],tat[i]);
     }
  
-    avg_tat=total/n;     //average turnaround time
+    avg_tat=total/n; //average turnaround time
     printf("\n\nAverage Waiting Time is =%d",avg_w);
     printf("\nAverage Turnaround Time is =%d\n",avg_tat);
  
